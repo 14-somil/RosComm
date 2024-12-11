@@ -13,6 +13,7 @@
 
 ```python
 import RosComm
+import time
 
 msgToSend = {
     "data" : ""
@@ -32,5 +33,7 @@ while True:
     node.publish({"data" : "Hello World"})
 
     print(node.getRecievedMessage()) #To get the last recived message
+
+    time.sleep(1)
 
 ```
