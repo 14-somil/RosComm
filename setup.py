@@ -8,7 +8,7 @@ setup(
     description="A simple package to communicate with ESP32",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/14-somil/RosComm.git",
     packages=find_packages(),        
     classifiers=[
         "Programming Language :: Python :: 3",
